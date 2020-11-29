@@ -1,0 +1,214 @@
+:root {
+  --gray-1: #cbd0d0;
+  --background-main: #33373a;
+  --gray-4: #cbd0d0;
+  --turq-dark: var(--turq-med);
+  --border-light: #4b5053;
+  --border: #24282a;
+}
+
+html {
+  scrollbar-color: #666 #1d2022;
+}
+
+body {
+  background-color: var(--background-main);
+  color: #cbd0d0;
+}
+.Banner {
+  display: none;
+}
+
+.Header-searchForm,
+.Header-searchForm:focus-within {
+  background-color: #33373a;
+  border-color: #24282a;
+}
+
+.Documentation code,
+.Documentation pre {
+  background-color: #24282a;
+  border-color: black;
+}
+
+.Documentation pre .comment {
+  color: #007900;
+}
+
+/* Titles */
+.Site-content h1,
+.Site-content h2,
+.Site-content h3,
+.UnitFixedHeader-titleName,
+.Questions-header {
+  color: #dbe4e4;
+}
+.UnitHeader,
+.UnitFiles-title,
+.UnitDoc-title,
+.UnitDirectories-title {
+  border-color: var(--border-light);
+}
+
+/* Side Nav */
+.UnitOutline-jumpTo button {
+  background-color: transparent;
+  border-color: var(--border-light);
+}
+.UnitOutline-jumpTo button:hover:not([disabled]) {
+  border-color: var(--gray-4);
+}
+.UnitOutline-jumpTo::after {
+  background-color: #24282a;
+  color: var(--gray-4);
+}
+.UnitOutline-jumpTo::before {
+  /* change color */
+  filter: invert(1);
+}
+.UnitOutline-jumpToInput:disabled {
+  background-color: #33373a;
+}
+
+a.UnitOutline-accordion {
+  color: #dbe4e4;
+}
+a.UnitOutline-accordion[aria-expanded="true"] {
+  background-color: #24282a;
+}
+
+.UnitOutline-panel {
+  background-color: var(--background-main);
+}
+.DocNav a,
+.DocNav a:link,
+.DocNav a:visited {
+  color: var(--gray-4);
+}
+.DocNav a:hover,
+.DocNav a[aria-selected="true"] {
+  color: var(--gray-4);
+}
+
+/* Jump to Dialog */
+dialog {
+  background-color: var(--background-main);
+  color: #cbd0d0;
+}
+dialog + .backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+input.JumpDialog-input {
+  background-color: var(--background-main);
+  color: #cbd0d0;
+  border: 0.0625rem solid var(--gray-8);
+  border-radius: 0.25rem;
+  border-color: var(--border-light);
+}
+input.JumpDialog-input:focus {
+  border-color: var(--gray-4);
+}
+.JumpDialog-body {
+  border: 0.0625rem solid var(--border-light);
+  border-width: 0.0625rem 0 0.0625rem 0;
+}
+.Dialog-button {
+  border-color: var(--border-light);
+  cursor: pointer;
+}
+
+/* Fixed Header */
+.UnitFixedHeader {
+  background-color: #24282a;
+  border-color: black;
+}
+
+/* Site Header */
+.Site-header {
+  background-color: #24282a;
+  border-color: black;
+  box-shadow: none;
+}
+.Header-menuItem a:link,
+.Header-menuItem a:visited {
+  color: #dbe4e4;
+}
+
+/* Readme */
+.UnitReadme-fadeOut {
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    var(--background-main)
+  );
+}
+.Overview-readmeContent a {
+  color: #3d88db;
+}
+.UnitReadme-title,
+.Overview-readmeContent h3,
+.Overview-readmeContent h4 {
+  border-color: var(--border-light);
+}
+.Overview-readmeContent pre,
+.Overview-readmeContent code {
+  background-color: #24282a;
+  border-color: black;
+}
+
+/* Directories Table */
+.UnitDirectories-tableHeader {
+  background-color: #24282a;
+}
+
+.UnitDirectories th {
+  border: none;
+}
+
+.UnitDirectories td {
+  border-color: var(--border-light);
+}
+
+/* Footer */
+.Site-footer {
+  background-color: #24282a;
+  color: var(--gray-4);
+}
+a.Footer-link {
+  color: var(--gray-4);
+}
+a.Footer-link--primary {
+  color: #dbe4e4;
+}
+.Footer-listItem a:link,
+.Footer-listItem a:visited {
+  color: var(--gray-4);
+}
+.Footer-bottom {
+  border-color: var(--border-light);
+}
+
+/* Home Page */
+.Homepage-searchForm input {
+  border-color: var(--border-light);
+}
+.Questions {
+  display: none;
+}
+.Homepage-exampleSearches {
+  color: var(--gray-4);
+}
+.Homepage-helpLink > span:nth-child(1) {
+  filter: invert(1);
+}
+
+/* Search */
+.SearchResults-resultCount,
+.SearchSnippet-synopsis {
+  color: #797d7d;
+}
+.SearchSnippet {
+  border-color: var(--border-light);
+}
+
+/* TODO: change color of all svg icons */
