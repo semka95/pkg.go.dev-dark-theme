@@ -206,10 +206,10 @@ a.Footer-link--primary {
 }
 img.Homepage-logo {
   height: 0;
-  width: 29.8125rem;
-  margin: 3.125rem auto;
-  padding: 9.3rem 0;
-  background-image: url("https://github.com/semka95/pkg.go.dev-dark-theme/raw/main/src/img/gopher-homepage.png");
+  width: 28.8125rem;
+  margin: 2.125rem auto;
+  padding: 7rem 0;
+  background-image: url("https://github.com/semka95/pkg.go.dev-dark-theme/raw/main/src/img/Golang.png");
   background-size: cover;
 }
 
