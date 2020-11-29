@@ -189,6 +189,9 @@ a.Footer-link--primary {
 }
 
 /* Home Page */
+.Homepage {
+  margin-top: 0;
+}
 .Homepage-searchForm input {
   border-color: var(--border-light);
 }
@@ -200,6 +203,14 @@ a.Footer-link--primary {
 }
 .Homepage-helpLink > span:nth-child(1) {
   filter: invert(1);
+}
+img.Homepage-logo {
+  height: 0;
+  width: 29.8125rem;
+  margin: 3.125rem auto;
+  padding: 9.3rem 0;
+  background-image: url("https://github.com/semka95/pkg.go.dev-dark-theme/raw/main/src/img/gopher-homepage.png");
+  background-size: cover;
 }
 
 /* Search */
